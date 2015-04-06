@@ -8,4 +8,4 @@ rm ~/.vimrc
 ln -s `pwd`/.vimrc ~/.vimrc
 
 # Installs vundle plugins
-vim +PluginInstall +qall
+./vundle_plugin_install.sh
