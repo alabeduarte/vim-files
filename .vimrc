@@ -30,6 +30,8 @@ Plugin 'scrooloose/nerdtree'
 
 Plugin 'benmills/vimux'
 
+Plugin 'tpope/vim-fugitive'
+
 Plugin 'airblade/vim-gitgutter'
 
 Plugin 'kien/ctrlp.vim'
