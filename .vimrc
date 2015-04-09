@@ -6,6 +6,9 @@ call vundle#begin()
 
 let mapleader=","
 map <leader>e :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
+
+autocmd BufWritePre * :%s/\s\+$//e
 
 set number
 set tabstop=2 shiftwidth=2 expandtab
