@@ -45,6 +45,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 
 Plugin 'kien/ctrlp.vim'
+let g:ctrlp_show_hidden=1
 
 Plugin 'rking/ag.vim'
 
