@@ -72,6 +72,8 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'Lokaltog/vim-easymotion'
 
 Plugin 'vim-ruby/vim-ruby'
+au BufRead,BufNewFile *.jbuilder setfiletype ruby
+
 Plugin 'tpope/vim-rails'
 
 Plugin 'tpope/vim-markdown'
