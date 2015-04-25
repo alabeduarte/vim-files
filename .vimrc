@@ -9,6 +9,7 @@ map <leader>e :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 
 autocmd BufWritePre * :%s/\s\+$//e
+:set autowriteall
 
 set number
 set tabstop=2 shiftwidth=2 expandtab
