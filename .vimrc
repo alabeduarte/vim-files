@@ -77,6 +77,8 @@ au BufRead,BufNewFile *.jbuilder setfiletype ruby
 
 Plugin 'tpope/vim-rails'
 
+Plugin 'elixir-lang/vim-elixir'
+
 Plugin 'tpope/vim-markdown'
 Plugin 'mattn/emmet-vim'
 Plugin 'othree/html5.vim'
