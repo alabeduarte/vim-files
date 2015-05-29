@@ -86,6 +86,8 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'mxw/vim-jsx'
 
+Plugin 'groenewege/vim-less'
+
 Plugin 'raichoo/haskell-vim'
 Plugin 'enomsg/vim-haskellConcealPlus'
 Plugin 'eagletmt/neco-ghc'
