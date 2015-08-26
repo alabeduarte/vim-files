@@ -92,7 +92,7 @@ Plugin 'raichoo/haskell-vim'
 Plugin 'enomsg/vim-haskellConcealPlus'
 Plugin 'eagletmt/neco-ghc'
 
-Plugin 'jpo/vim-railscasts-theme'
+Plugin 'flazz/vim-colorschemes'
 
 call vundle#end()
 
@@ -100,7 +100,7 @@ filetype plugin indent on
 syntax on
 
 try
-  colorscheme railscasts
+  colorscheme Tomorrow-Night
 catch
 endtry
 
