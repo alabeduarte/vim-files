@@ -99,10 +99,7 @@ call vundle#end()
 filetype plugin indent on
 syntax on
 
-try
-  colorscheme Tomorrow-Night
-catch
-endtry
+colorscheme Tomorrow-Night
 
 " Match wombat colors in nerd tree
 hi Directory guifg=#8ac6f2
