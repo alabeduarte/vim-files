@@ -92,14 +92,18 @@ Plugin 'raichoo/haskell-vim'
 Plugin 'enomsg/vim-haskellConcealPlus'
 Plugin 'eagletmt/neco-ghc'
 
-Plugin 'flazz/vim-colorschemes'
+Plugin 'kristijanhusak/vim-hybrid-material'
 
 call vundle#end()
 
 filetype plugin indent on
 syntax on
 
-colorscheme Tomorrow-Night
+try
+  let g:enable_bold_font = 1
+  color hybrid_material
+catch
+endtry
 
 " Match wombat colors in nerd tree
 hi Directory guifg=#8ac6f2
