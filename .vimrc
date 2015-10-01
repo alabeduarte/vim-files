@@ -47,6 +47,8 @@ Plugin 'airblade/vim-gitgutter'
 
 Plugin 'kien/ctrlp.vim'
 let g:ctrlp_show_hidden=1
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 
 Plugin 'rking/ag.vim'
 
