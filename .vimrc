@@ -39,7 +39,7 @@ map <Leader>rs :call VimuxRunCommand("clear; bundle exec rspec " . bufname("%"))
 " Run rspecs
 map <Leader>rb :call VimuxRunCommand("clear; bundle exec rspec ")<CR>
 
-" Run npm tests
+" Run all npm tests
 map <Leader>nt :call VimuxRunCommand("clear; npm test ")<CR>
 
 " Run last command
