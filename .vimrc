@@ -38,6 +38,10 @@ Plugin 'benmills/vimux'
 map <Leader>rs :call VimuxRunCommand("clear; bundle exec rspec " . bufname("%"))<CR>
 " Run rspecs
 map <Leader>rb :call VimuxRunCommand("clear; bundle exec rspec ")<CR>
+
+" Run npm tests
+map <Leader>nt :call VimuxRunCommand("clear; npm test ")<CR>
+
 " Run last command
 map <Leader>rl :VimuxRunLastCommand<CR>"
 
