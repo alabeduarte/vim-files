@@ -78,6 +78,8 @@ Plugin 'ntpeters/vim-better-whitespace'
 
 Plugin 'Lokaltog/vim-easymotion'
 
+Plugin 'docker/docker', {'rtp': '/contrib/syntax/vim/'}
+
 Plugin 'vim-ruby/vim-ruby'
 au BufRead,BufNewFile *.jbuilder setfiletype ruby
 
