@@ -90,7 +90,10 @@ Plugin 'elixir-lang/vim-elixir'
 Plugin 'tpope/vim-markdown'
 Plugin 'mattn/emmet-vim'
 Plugin 'othree/html5.vim'
-Plugin 'pangloss/vim-javascript'
+
+" Sintax highlight for javascript with es6 support
+Plugin 'othree/yajs.vim'
+
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'mxw/vim-jsx'
 
