@@ -97,6 +97,7 @@ Plugin 'pangloss/vim-javascript'
 
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'mxw/vim-jsx'
+let g:jsx_ext_required = 0
 
 Plugin 'groenewege/vim-less'
 
