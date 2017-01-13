@@ -93,6 +93,7 @@ Plugin 'othree/html5.vim'
 
 " Sintax highlight for javascript with es6 support
 Plugin 'othree/yajs.vim'
+Plugin 'pangloss/vim-javascript'
 
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'mxw/vim-jsx'
