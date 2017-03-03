@@ -105,7 +105,7 @@ Plugin 'raichoo/haskell-vim'
 Plugin 'enomsg/vim-haskellConcealPlus'
 Plugin 'eagletmt/neco-ghc'
 
-Plugin 'kristijanhusak/vim-hybrid-material'
+Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
 
@@ -113,8 +113,9 @@ filetype plugin indent on
 syntax on
 
 try
-  let g:enable_bold_font = 1
-  color hybrid_material
+  syntax enable
+  set background=dark
+  colorscheme solarized
 catch
 endtry
 
