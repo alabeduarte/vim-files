@@ -105,6 +105,8 @@ Plugin 'raichoo/haskell-vim'
 Plugin 'enomsg/vim-haskellConcealPlus'
 Plugin 'eagletmt/neco-ghc'
 
+Plugin 'hashivim/vim-terraform'
+
 Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
