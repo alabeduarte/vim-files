@@ -8,6 +8,9 @@ let mapleader=","
 map <leader>e :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 
+" Prompt for a command to run
+map <leader>vp :VimuxPromptCommand<CR>
+
 autocmd BufWritePre * :%s/\s\+$//e
 :set autowriteall
 
