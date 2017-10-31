@@ -12,7 +12,8 @@ let NERDTreeShowHidden=1
 map <leader>vp :VimuxPromptCommand<CR>
 
 autocmd BufWritePre * :%s/\s\+$//e
-:set autowriteall
+set autowriteall
+set noswapfile
 
 set number
 set tabstop=2 shiftwidth=2 expandtab
