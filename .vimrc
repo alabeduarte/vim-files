@@ -2,24 +2,19 @@ set nocompatible
 filetype off
 
 " -----------------------------------------------------------------------------
-" Load Vundle
-" -----------------------------------------------------------------------------
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-" -----------------------------------------------------------------------------
 " Leader
 " -----------------------------------------------------------------------------
 let mapleader=","
 
 " -----------------------------------------------------------------------------
-" NERDTree
+" Mapping
 " -----------------------------------------------------------------------------
 map <leader>e :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 
 " Prompt for a command to run
 map <leader>vp :VimuxPromptCommand<CR>
+" -----------------------------------------------------------------------------
 
 autocmd BufWritePre * :%s/\s\+$//e
 set autowriteall
@@ -42,7 +37,15 @@ set linebreak
 " Show ruler on column 80
 set colorcolumn=80
 
+" -----------------------------------------------------------------------------
+" Plugins
+" -----------------------------------------------------------------------------
+" Load Vundle
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
+
+" NERDTree
 Plugin 'scrooloose/nerdtree'
 
 Plugin 'benmills/vimux'
