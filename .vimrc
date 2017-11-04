@@ -61,8 +61,6 @@ map <Leader>nt :call VimuxRunCommand("clear; npm test ")<CR>
 " Run last command
 map <Leader>rl :VimuxRunLastCommand<CR>"
 
-Plugin 'tpope/vim-fugitive'
-
 Plugin 'airblade/vim-gitgutter'
 
 Plugin 'kien/ctrlp.vim'
