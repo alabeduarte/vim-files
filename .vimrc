@@ -1,10 +1,20 @@
 set nocompatible
 filetype off
 
+" -----------------------------------------------------------------------------
+" Load Vundle
+" -----------------------------------------------------------------------------
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+" -----------------------------------------------------------------------------
+" Leader
+" -----------------------------------------------------------------------------
 let mapleader=","
+
+" -----------------------------------------------------------------------------
+" NERDTree
+" -----------------------------------------------------------------------------
 map <leader>e :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 
@@ -33,7 +43,6 @@ set linebreak
 set colorcolumn=80
 
 Plugin 'gmarik/Vundle.vim'
-
 Plugin 'scrooloose/nerdtree'
 
 Plugin 'benmills/vimux'
@@ -82,42 +91,63 @@ Plugin 'ntpeters/vim-better-whitespace'
 
 Plugin 'Lokaltog/vim-easymotion'
 
-Plugin 'docker/docker', {'rtp': '/contrib/syntax/vim/'}
+" -----------------------------------------------------------------------------
+" Syntax highlight
+" -----------------------------------------------------------------------------
+" Markdown
+Plugin 'tpope/vim-markdown'
 
+" Ruby
 Plugin 'vim-ruby/vim-ruby'
 au BufRead,BufNewFile *.jbuilder setfiletype ruby
 
+" Rails
 Plugin 'tpope/vim-rails'
 
+" Elixir
 Plugin 'elixir-lang/vim-elixir'
 
-Plugin 'tpope/vim-markdown'
-Plugin 'mattn/emmet-vim'
-Plugin 'othree/html5.vim'
-
-" Sintax highlight for javascript with es6 support
+" Javascript
 Plugin 'othree/yajs.vim'
 Plugin 'pangloss/vim-javascript'
 
+" Coffeescript
 Plugin 'kchmck/vim-coffee-script'
+
+" JSX
 Plugin 'mxw/vim-jsx'
 let g:jsx_ext_required = 0
 
+" Html
+Plugin 'mattn/emmet-vim'
+Plugin 'othree/html5.vim'
+
+" Less
 Plugin 'groenewege/vim-less'
 
+" Haskell
 Plugin 'raichoo/haskell-vim'
 Plugin 'enomsg/vim-haskellConcealPlus'
 Plugin 'eagletmt/neco-ghc'
 
+" Docker
+Plugin 'docker/docker', {'rtp': '/contrib/syntax/vim/'}
+
+" Terraform
 Plugin 'hashivim/vim-terraform'
+" -----------------------------------------------------------------------------
 
 Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
+" -----------------------------------------------------------------------------
 
 filetype plugin indent on
 syntax on
 
+" -----------------------------------------------------------------------------
+" Color Scheme
+" -----------------------------------------------------------------------------
 try
   syntax enable
   set background=dark
