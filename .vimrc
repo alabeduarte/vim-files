@@ -220,3 +220,12 @@ set t_Co=256
 
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
+
+" -----------------------------------------------------------------------------
+" NERDTree Icons
+" -----------------------------------------------------------------------------
+let g:WebDevIconsUnicodeDecorateFolderNodes = 1
+let g:WebDevIconsNerdTreeAfterGlyphPadding = ''
+let g:DevIconsEnableFoldersOpenClose = 1
+let g:webdevicons_conceal_nerdtree_brackets = 0
+let NERDTreeMinimalUI = 1
