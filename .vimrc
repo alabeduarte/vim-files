@@ -48,9 +48,6 @@ set textwidth=80
 set linebreak
 set colorcolumn=80
 
-filetype plugin indent on
-syntax on
-
 " -----------------------------------------------------------------------------
 " Plugins
 " -----------------------------------------------------------------------------
@@ -171,6 +168,9 @@ call vundle#end()
 " -----------------------------------------------------------------------------
 " Plugin configurations
 " -----------------------------------------------------------------------------
+
+filetype plugin indent on
+syntax on
 
 " vim-ruby/vim-ruby
 " Enable Ruby syntax highlighting and indenting for .jbuilder files
